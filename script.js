@@ -12,10 +12,30 @@ const brickColumnCount = 5;
 
 // Create ball props
 const ball = {
-  x: canvas.width / 2,
-  y: canvas.height / 2,
-  size: 10,
-  speed: 4,
-  dx: 4,
-  dy: -4
+    x: canvas.width / 2,
+    y: canvas.height / 2,
+    size: 10,
+    speed: 4,
+    dx: 4,
+    dy: -4
+};
+
+// Create paddle props
+const paddle = {
+    x: canvas.width / 2 - 40,
+    y: canvas.height - 20,
+    w: 80,
+    h: 10,
+    speed: 8,
+    dx: 0
+};
+
+// Create brick props
+const brickInfo = {
+    w: 70,
+    h: 20,
+    padding: 10,
+    offsetX: 45,
+    offsetY: 60,
+    visible: true
 };
