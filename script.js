@@ -8,3 +8,14 @@ let score = 0;
 
 const brickRowCount = 9;
 const brickColumnCount = 5;
+
+
+// Create ball props
+const ball = {
+  x: canvas.width / 2,
+  y: canvas.height / 2,
+  size: 10,
+  speed: 4,
+  dx: 4,
+  dy: -4
+};
